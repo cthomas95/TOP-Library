@@ -1,0 +1,61 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+button{
+  background-color: #2563eb;
+  display: block;
+  color: white;
+  margin: 30px auto;
+  padding: 40px 80px;
+  font-size: 3rem;
+  border-radius: 3rem;
+}
+
+#new-book-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border:black solid 2px;
+  border-radius: 10px;
+  width: 20%;
+  margin: 80px auto;
+}
+
+.form-row{
+  margin: 10px auto;
+}
+
+label{
+  font-size: 1.5rem;
+}
+
+input{
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 2rem;
+  font-size: 1.3rem;
+}
+
+#form-submission{
+  margin-bottom: 10px;
+  color: white;
+  background-color: #0f172a;
+}
+
+#library{
+  display: flex;
+  gap: 32px;
+}
+
+.card-block{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+}
